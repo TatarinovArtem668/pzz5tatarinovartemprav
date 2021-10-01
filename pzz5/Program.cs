@@ -14,14 +14,11 @@ namespace pz_5
         {
             while (true)
             {
-                // Запрашиваем номер задания
                 Console.WriteLine("Выберете номер задания [1-5]");
                 string exercise = Console.ReadLine();
 
-                // чистим консоль для лучшей ориентации
                 Console.Clear();
 
-                // выполняем код, в зависимости от выбора задания
                 switch (exercise)
                 {
                     case "1":
@@ -69,7 +66,7 @@ namespace pz_5
                         break;
 
                     default:
-                        Console.WriteLine("Некорректное значение"); //сообщаем об ошибке ввода
+                        Console.WriteLine("Некорректное значение"); 
                         break;
                 }
                 Console.WriteLine();
